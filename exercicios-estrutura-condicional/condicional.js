@@ -266,3 +266,35 @@ if (fome === "nao" || money === "nao") {
 }
 */
 
+/* Hoje*/
+/* Escreva um programa que verifica se um número é positivo, negativo ou zero. 
+
+
+let numero = Number(prompt('Informe um numero: '))
+
+if(numero > 0){
+    alert("O numero inserido foi " + numero + " e ele é maior que 0")
+}
+else if(numero < 0){
+    alert("O numero inserido foi " + numero + " e ele é menor que zero")
+}
+else {
+    alert("O numero inserido foi o 0")
+}
+*/
+
+
+/* Faça um programa que verifica se uma pessoa pode votar com base na sua idade. 
+
+let idade = Number(prompt("Informe sua idade: "))
+
+if(idade >= 18){
+    alert("Esta autorizado a votar")
+}
+else{
+    alert("Não esta autorizado a votar ")
+}
+*/
+
+
+
