@@ -13,7 +13,6 @@ else {
 */
 
 
-
 /* Comparador de Números: Crie um programa que peça dois números ao 
 usuário e determine qual é o maior e qual é o menor. 
 
@@ -30,8 +29,6 @@ if (numero1 > numero2) {
 */
 
 
-
-
 /* Verificador de Maioridade: Escreva um programa que pergunte a idade 
 do usuário e diga se ele é maior de idade ou não. 
 
@@ -43,7 +40,6 @@ else {
     alert("Você é menor de idade");
 }
 */
-
 
 
 /* Verificador de Número Primo Simples: Crie um programa que pergunte
@@ -69,7 +65,6 @@ else {
 */
 
 
-
 /* Comparador de Idades: Crie um programa que peça duas idades ao usuário 
 e determine se são iguais ou diferentes. 
 
@@ -83,8 +78,6 @@ else {
     alert("Idades diferentes");
 }
 */
-
-
 
 
 /* Calculadora de Bônus de Desempenho: Escreva um programa que calcule o bônus 
@@ -114,7 +107,6 @@ if (desempenho === "excelente") {
 */
 
 
-
 /* Classificador de Números: Desenvolva um programa que classifique um número 
 fornecido pelo usuário como positivo, negativo ou zero. 
 
@@ -128,9 +120,6 @@ if(numero > 0) {
     alert("Número igual a 0");
 }
 */
-
-
-
 
 
 /* Calculadora de Desconto por Faixa Etária: Crie um programa que calcule o
@@ -149,7 +138,6 @@ if(numero > 0) {
      alert("Não há desconto. O preço do ingresso é: R$" + precoIngresso.toFixed(2));
  }
  */
-
 
 
 /* Verificador de Triângulo Retângulo: Escreva um programa que solicite os 
@@ -175,8 +163,6 @@ if (ladoA + ladoB > ladoC && ladoA + ladoC > ladoB && ladoB + ladoC > ladoA) {
     alert("Os comprimentos fornecidos não formam um triângulo.");
 }
 */
-
-
 
 
 /* Verificador de Triângulo Retângulo: Escreva um programa que solicite os 
@@ -240,8 +226,6 @@ if (mes == 1) {
 */
 
 
-
-
 /* Calculadora de Desconto por Quantidade Comprada: Crie um programa que calcule 
 o desconto em uma compra com base na quantidade comprada. Se o cliente comprar 
 mais de 10 unidades do produto, ele receberá um desconto de 10%.    
@@ -254,3 +238,31 @@ if (produto > 10) { // Verifica se o cliente comprou mais de 10 unidades
     alert("Você não recebeu desconto.");
 }
 */
+
+
+/* 1.1 - Crie um sistema que pergunte ao seu usuário se ele está com fome, se tem dinheiro e se o restaurante está aberto.
+
+1.2 - Se estiver sem fome ou sem dinheiro exiba no console: "Hoje a janta será em casa"
+
+1.3 - Se estiver com fome e tiver dinheiro mas o restaurante estiver fechado exiba no console: "Peça um delivery!"
+
+1.4 - Se estiver com fome, tiver dinheiro e o restaurante estiver aberto exiba no console: "Hoje o jantar será no seu restaurante preferido!" 
+
+
+let fome = prompt('Olá, Você está com fome?');
+let money = prompt('Você tem dinheiro?');
+let restaurante = prompt('O restaurante está aberto?');
+
+console.log("fome:", fome);
+console.log("money:", money);
+console.log("restaurante:", restaurante);
+
+if (fome === "nao" || money === "nao") {
+    alert("Hoje a janta será em casa.");
+} else if (fome === "sim" && money === "sim" && restaurante === "nao") {
+    alert("Peça um delivery!");
+} else if (fome === "sim" && money === "sim" && restaurante === "sim") {
+    alert("Hoje o jantar será no seu restaurante preferido!");
+}
+*/
+
