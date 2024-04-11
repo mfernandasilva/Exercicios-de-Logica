@@ -58,3 +58,127 @@ switch (escolha) {
 */
 
 
+/* Faça um programa que recebe o nome de um mês e retorna a quantidade de dias que o mês possui. 
+
+let mes = Number(prompt("Informe um numero referente ao mês que você deseja solicitar o contador de dias: "))
+
+switch (mes) {
+    case 1: 
+    alert("Mês Janeiro = 31 dias.");
+    break;
+    case 2: 
+    alert("Mês Fevereiro = 28 dias.");
+    break;
+    case 3: 
+    alert("Mês Março = 31 dias.");
+    break;
+    case 4: 
+    alert("Mês Abril = 30 dias.");
+    break;
+    case 5: 
+    alert("Mês Maio = 31 dias.");
+    break;
+    case 6: 
+    alert("Mês Junho = 30 dias.");
+    break;
+    case 7: 
+    alert("Mês Julho = 31 dias.");
+    break;
+    case 8: 
+    alert("Mês Agosto = 31 dias.");
+    break;
+    case 9: 
+    alert("Mês Setembro = 30 dias.");
+    break;
+    case 10: 
+    alert("Mês Outubro = 31 dias.");
+    break;
+    case 11: 
+    alert("Mês Novembro = 30 dias.");
+    break;
+    case 12: 
+    alert("Mês Dezembro = 31 dias.");
+    break;
+}
+*/
+
+
+/* Escreva um programa que recebe um número de 1 a 7 e retorna o dia da semana correspondente. 
+
+let dia = Number(prompt("Informe um numero de 1 a 7"))
+
+switch (dia) {
+    case 1: 
+    alert("Segunda Feira")
+    break;
+    case 2: 
+    alert("Terça Feira")
+    break;
+    case 3: 
+    alert("Quarta Feira")
+    break;
+    case 4: 
+    alert("Quinta Feira")
+    break;
+    case 5: 
+    alert("Sexta Feira")
+    break;
+    case 6: 
+    alert("Sabado")
+    break;
+    case 7: 
+    alert("Domingo")
+    break;
+}
+*/
+
+
+/*Faça um programa que recebe uma letra (vogal ou consoante) e determina se é vogal ou consoante. 
+
+let letra = prompt("Informe uma letra ").toLowerCase();
+
+switch(letra) {
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u':
+        alert("A letra informada é uma Vogal");
+        break;
+    default:
+        alert("A letra informada é uma Consoante");
+}
+*/
+
+
+/* Crie um programa que recebe o nome de um mês e retorna a estação do ano correspondente (verão, outono, inverno ou primavera). 
+
+let mes = prompt("Informe um mês ");
+
+switch(mes) {
+    case 'Dezembro':
+    case 'Janeiro':
+    case 'Fevereiro':
+    case 'Março':
+        alert("Verão");
+        break;
+    case 'Abril':
+    case 'Maio':
+    case 'Junho':
+        alert("Outono");
+        break;
+    case 'Julho':
+    case 'Agosto':
+    case 'Setembro':
+        alert("Inverno");
+        break;
+    case 'Outubro':
+    case 'Novembro':
+        alert("Primavera");
+        break;
+    default:
+        alert("Informe um mês válido");
+    }
+*/
+
+

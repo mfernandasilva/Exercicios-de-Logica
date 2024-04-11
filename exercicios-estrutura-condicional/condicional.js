@@ -297,4 +297,51 @@ else{
 */
 
 
+/* Crie um programa que determina o maior de três números. 
+
+let numero1 = Number(prompt("Informe um número: "));
+let numero2 = Number(prompt("Informe mais um número: "));
+let numero3 = Number(prompt("Informe outro número: "));
+
+if (numero1 > numero2 && numero1 > numero3) {
+    alert("O maior número informado é o " + numero1);
+} else if (numero2 > numero3) {
+    alert("O maior número informado é o " + numero2);
+} else {
+    alert("O maior número informado é o " + numero3);
+}
+*/
+
+
+/* Crie um programa que simula o jogo pedra, papel e tesoura contra o computador. 
+
+
+const escolhaUsuario = prompt("Escolha pedra, papel ou tesoura: ").toLowerCase();
+
+const opcoesComputador = ['pedra', 'papel', 'tesoura'];
+const indiceAleatorio = Math.floor(Math.random() * 3);
+const escolhaComputador = opcoesComputador[indiceAleatorio];
+
+if (
+    (escolhaUsuario === 'pedra' && escolhaComputador === 'tesoura') ||
+    (escolhaUsuario === 'papel' && escolhaComputador === 'pedra') ||
+    (escolhaUsuario === 'tesoura' && escolhaComputador === 'papel')
+) 
+{
+    alert('Você ganhou! O computador escolheu ' + escolhaComputador + '.');
+} 
+else if (
+    (escolhaUsuario === 'pedra' && escolhaComputador === 'papel') ||
+    (escolhaUsuario === 'papel' && escolhaComputador === 'tesoura') ||
+    (escolhaUsuario === 'tesoura' && escolhaComputador === 'pedra')
+) 
+{
+    alert('Você perdeu! O computador escolheu ' + escolhaComputador + '.');
+} 
+else {
+    alert('Empate! Ambos escolheram ' + escolhaUsuario + '.');
+}
+*/
+
+
 
