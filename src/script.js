@@ -1,7 +1,15 @@
-/* 3 - Agora faça com que o algoritmo do exercício anterior exiba a mesma contagem mas na ordem inversa.
-   Ex.: 50 45 40 35 30 25 … 5 0 Fim! */
+/* Escreva um programa que calcula e imprime a média de uma lista de números fornecida pelo usuário. */
 
-   
-   for(let i = 50; i >= 0; i -=5){
-    console.log(i)
-   }
+let listaNumeros = prompt("Digite uma lista de números separados por vírgula: ");
+
+let numeros = listaNumeros.split(",").map(Number);
+let soma = 0;
+
+for (let i = 0; i < numeros.length; i++) {
+    soma += numeros[i];
+}
+
+let media = soma / numeros.length;
+
+console.log("A média dos números é:", media);
+

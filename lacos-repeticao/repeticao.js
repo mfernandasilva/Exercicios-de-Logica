@@ -35,4 +35,104 @@ for(let i = 0; i <= numero; i ++){
    */
 
 
-   
+/* Escreva um programa que imprime os números de 1 a 10. 
+
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+ }
+*/ 
+
+
+/* Faça um programa que imprime os números pares de 1 a 20. 
+
+for (let i = 1; i <= 20; i++) {
+    console.log(i);
+ }
+*/
+
+
+/* Crie um programa que calcule a soma dos números de 1 a 100. 
+
+let soma = 0;
+
+for (let i = 1; i <= 100; i++) {
+    soma += i;
+}
+
+console.log("A soma dos números de 1 a 100 é:", soma);
+*/
+
+
+/* Faça um programa que imprime os números de 10 a 1 em ordem decrescente. 
+
+for (let i = 10; i >= 1; i--){
+    console.log(i)
+ }
+ */
+
+
+ /* Escreva um programa que calcula e imprime o fatorial de um número fornecido pelo usuário. 
+
+let numero = Number(prompt("Digite um número para calcular seu fatorial: "));
+
+let fatorial = 1;
+
+for (let i = 1; i <= numero; i++) {
+    fatorial *= i;
+}
+
+console.log("O fatorial de", numero, "é:", fatorial);
+*/
+
+
+/* Faça um programa que imprime os termos de uma sequência de Fibonacci até o décimo termo. 
+
+let primeiroTermo = 0;
+let segundoTermo = 1;
+let proximoTermo;
+
+console.log("Os termos da sequência de Fibonacci até o décimo termo são:");
+
+console.log(primeiroTermo); 
+
+for (let i = 1; i < 10; i++) {
+    console.log(segundoTermo);
+
+    proximoTermo = primeiroTermo + segundoTermo;
+    primeiroTermo = segundoTermo;
+    segundoTermo = proximoTermo;
+}
+*/
+
+
+/* Crie um programa que solicita ao usuário um número e imprime todos os seus divisores. 
+
+let numero = Number(prompt("Digite um número para encontrar seus divisores: "));
+
+console.log("Os divisores de", numero, "são:");
+
+for (let i = 1; i <= numero; i++) {
+    if (numero % i === 0) {
+        console.log(i); 
+    }
+}
+*/
+
+
+/* Escreva um programa que calcula e imprime a média de uma lista de números fornecida pelo usuário. 
+
+let listaNumeros = prompt("Digite uma lista de números separados por vírgula: ");
+
+let numeros = listaNumeros.split(",").map(Number);
+let soma = 0;
+
+for (let i = 0; i < numeros.length; i++) {
+    soma += numeros[i];
+}
+
+let media = soma / numeros.length;
+
+console.log("A média dos números é:", media);
+*/
+
+
