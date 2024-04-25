@@ -89,3 +89,50 @@ for(let i = 10; i >= 1; i--){
  */
 
 
+/* Crie um programa que exiba a tabuada de um número fornecido pelo usuário. 
+
+let tabuada = Number(prompt("Insira a tabuada que voce deseja "))
+
+for(let contador = 0; contador <= 20; contador ++){
+    console.log( contador*tabuada)
+}
+*/
+
+
+/* Escreva um programa que peça ao usuário dois números e exiba todos os números entre eles. 
+
+let n1 = Number(prompt("Insira um número: "));
+let n2 = Number(prompt("Insira outro número: "));
+
+console.log(`Os números entre ${n1} e ${n2} são:`);
+if (n1 < n2) {
+    for (let i = n1; i <= n2; i++) {
+        console.log(i);
+    }
+} else {
+    for (let i = n1; i >= n2; i--) {
+        console.log(i);
+    }
+}
+*/
+
+
+/* Escreva um programa que solicite ao usuário uma idade e classifique-a em: "Criança" (0-12), "Adolescente" (13-17), "Adulto" (18-64) ou "Idoso" (65+). 
+
+let idade = Number(prompt("Informe sua Idade: "))
+
+if(idade <= 12){
+    console.log("Você é uma criança")
+}
+else if(idade > 13 && idade <= 17){
+    console.log("Você é Adolescente")
+}
+else if(idade >= 18 && idade <= 64){
+    console.log("Você é Adulto")
+}
+else {
+    console.log("Você é Idoso")
+}
+*/
+
+
