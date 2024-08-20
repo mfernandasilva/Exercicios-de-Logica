@@ -204,5 +204,25 @@ for (let i = 3; i <= 10; i++) {
 */
 
 
+/* Imprima todos os números ímpares de 1 a 50. 
+
+for(let i = 0; i <= 50; i++){
+    if(i % 2 !== 0){
+        console.log(i)
+    }
+}
+
+*/
+
+
+/* Solicite ao usuário um número inteiro positivo e imprima o quadrado 
+de todos os números de 1 até o número fornecido. 
+
+let numero = parseInt(prompt("Insira um numero inteiro e positivo: "))
+
+for (let i = 1; i <= numero; i++) {
+    console.log(i + " ao quadrado é " + (i * i));
+}
+*/
 
 
