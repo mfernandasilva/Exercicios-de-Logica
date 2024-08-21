@@ -226,3 +226,41 @@ for (let i = 1; i <= numero; i++) {
 */
 
 
+/*Imprima todos os números de 1 a 100 que são divisíveis por 3. 
+
+for(let i = 1; i <= 100; i++){
+    if(i % 3 == 0){
+        console.log(i)
+    }
+}
+*/
+
+
+/* Solicite ao usuário um número inicial e um final. Conte de forma regressiva
+ do número inicial até o final, exibindo apenas os números pares. 
+
+ let inicial = Number(prompt("Insira um valor inicial: "));
+ let final = Number(prompt("Insira um valor final: "));
+ 
+ for (let i = inicial; i >= final; i--) {
+     if (i % 2 === 0) {
+         console.log(i);
+     }
+ }
+ */
+
+
+ /* Calcule a soma de todos os números ímpares entre 1 e 50.
+
+let soma = 0;
+
+for (let i = 1; i <= 50; i++) {
+    if (i % 2 !== 0) {
+        soma += i;      
+    }
+}
+
+console.log("A soma de todos os números ímpares entre 1 e 50 é:", soma);
+*/
+
+
