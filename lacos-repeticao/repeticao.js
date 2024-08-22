@@ -264,3 +264,33 @@ console.log("A soma de todos os números ímpares entre 1 e 50 é:", soma);
 */
 
 
+/* Imprimir Nomes em Ordem Inversa:
+Solicite ao usuário uma lista de nomes (separados por vírgula) e 
+imprima cada nome em ordem inversa. 
+
+let nomes = prompt("Informe uma lista de nomes separados por vírgula: ");
+let nomeAtual = "";
+let nomesInvertidos = "";
+
+for (let i = nomes.length - 1; i >= 0; i--) {
+    if (nomes[i] !== ",") {
+        nomeAtual = nomes[i] + nomeAtual;  // Constrói o nome atual ao contrário
+    } else {
+        nomesInvertidos += nomeAtual + ",";  // Adiciona o nome invertido à lista final
+        nomeAtual = "";  // Reseta para o próximo nome
+    }
+}
+
+// Adiciona o último nome (pois não há vírgula depois dele)
+nomesInvertidos += nomeAtual;
+
+console.log("Nomes na ordem inversa: " + nomesInvertidos);
+
+
+
+// No contexto do código que forneci, nomes.length - 1 é usado para começar o laço for no último caractere da string, permitindo que o código percorra a string de trás para frente.
+// Então, se você tiver uma string como "Ana", o length dela será 3, porque "Ana" tem três caracteres.
+
+*/
+
+
