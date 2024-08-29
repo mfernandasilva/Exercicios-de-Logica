@@ -46,6 +46,21 @@ console.log("Senha correta. Acesso concedido!");
 */
 
 
+/* Crie um programa que utilize um loop while para somar todos os números de 1 a 100 e exiba o resultado final.
+
+let soma = 0;
+let numeroAtual = 1;  // Variável para rastrear o número atual
+
+while (numeroAtual <= 100) {  // Loop de 1 a 100
+    soma = soma + numeroAtual;  // Adiciona o número atual à soma
+    numeroAtual++;  // Incrementa o número atual
+}
+
+console.log(soma);  // Exibe o resultado final
+*/
+
+
+
 // do while //
 
 /*
@@ -229,6 +244,37 @@ REGRAS:
     alert(`Saldo final: R$${saldo}`);
     alert(`Maior valor inserido: R$${maiorValorInserido}`);
     alert(`Média dos valores inseridos: R$${(somaValoresInseridos / totalTransacoes).toFixed(2)}`);
+*/
+
+
+/* Escreva um programa que utilize um loop do while para pedir ao usuário um 
+número e verificar se ele é par ou ímpar. O programa deve continuar pedindo 
+números até que o usuário insira "0 
+
+let numero;
+
+do {
+    numero = Number(prompt("Insira um número: ")); // Solicita ao usuário um número
+
+    if (numero === 0) {
+        console.log("Programa encerrado.");
+    } else if (numero % 2 === 0) {
+        console.log("Número par");
+    } else {
+        console.log("Número ímpar");
+    }
+} while (numero !== 0);  // Continua até que o usuário insira '0'
+*/
+
+
+/* const numeroAleatorio = Math.floor(Math.random() * 10) + 1;
+let chute;
+
+do {
+    chute = Number(prompt("Adivinhe o número entre 1 e 10: "));
+} while (chute !== numeroAleatorio);
+
+console.log("Parabéns! Você adivinhou o número.");
 */
 
 

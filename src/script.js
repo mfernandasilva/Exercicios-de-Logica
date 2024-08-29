@@ -1,65 +1,18 @@
-let currentInput = '';
-let previousInput = '';
-let operation = null;
+let somaNotas = 0;
+let contadorNotas = 0;
+let nota;
 
-function appendNumber(number) {
-    currentInput += number;
-    updateDisplay();
-}
-
-function appendDot() {
-    if (!currentInput.includes('.')) {
-        currentInput += '.';
-        updateDisplay();
+do {
+    nota = Number(prompt("Insira uma nota (número negativo para parar): "));
+    if (nota >= 0) {
+        somaNotas += nota;
+        contadorNotas++;
     }
-}
+} while (nota >= 0);
 
-function setOperation(op) {
-    if (currentInput === '') return;
-    if (previousInput !== '') {
-        calculate();
-    }
-    operation = op;
-    previousInput = currentInput;
-    currentInput = '';
-}
-
-function calculate() {
-    let result;
-    const prev = parseFloat(previousInput);
-    const current = parseFloat(currentInput);
-    if (isNaN(prev) || isNaN(current)) return;
-    
-    switch (operation) {
-        case '+':
-            result = prev + current;
-            break;
-        case '-':
-            result = prev - current;
-            break;
-        case '*':
-            result = prev * current;
-            break;
-        case '/':
-            result = prev / current;
-            break;
-        default:
-            return;
-    }
-
-    currentInput = result;
-    operation = null;
-    previousInput = '';
-    updateDisplay();
-}
-
-function clearDisplay() {
-    currentInput = '';
-    previousInput = '';
-    operation = null;
-    updateDisplay();
-}
-
-function updateDisplay() {
-    document.getElementById('display').value = currentInput;
+if (contadorNotas > 0) {
+    let media = somaNotas / contadorNotas;
+    console.log(`A média das notas é: ${media}`);
+} else {
+    console.log("Nenhuma nota válida foi inserida.");
 }
