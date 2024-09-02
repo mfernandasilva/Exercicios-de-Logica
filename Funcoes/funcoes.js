@@ -1,3 +1,4 @@
+/*  Aula sobre funções 
 function somar(n1, n2){
      console.log(n1)
      console.log(n2)
@@ -5,3 +6,6 @@ function somar(n1, n2){
 }
 
 somar(25, 80);
+*/
+
+
