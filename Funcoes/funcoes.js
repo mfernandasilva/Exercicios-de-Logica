@@ -147,3 +147,47 @@ console.log(reverterString());
 */
 
 
+/* // Exercício 1: Função de multiplicação
+
+function Multiplicar (n1 , n2, multi){
+    n1 = Number(prompt("Insira um número: "));
+    n2 = Number(prompt("Insira outro número: "));
+
+    multi = n1 * n2 
+    console.log("O resultado da multiplicação é " , multi)
+
+}
+Multiplicar();
+*/
+
+
+/* // Exercício 5: Conversão de Celsius para Fahrenheit
+
+function converterCelsiusParaFahrenheit() {
+    let C = Number(prompt("Insira a temperatura em Celsius: "));
+    let F = C * 9/5 + 32;
+
+    console.log(F);
+}
+
+converterCelsiusParaFahrenheit();
+
+*/
+
+
+/* //Exercício 2: Verificação de palíndromo
+
+function ehPalindromo(palavra) {
+    let palavraInvertida = '';
+    
+    for (let i = palavra.length - 1; i >= 0; i--) {
+        palavraInvertida += palavra[i];
+    }
+    return palavra === palavraInvertida;
+}
+
+console.log(ehPalindromo); 
+console.log(ehPalindromo); 
+ */
+
+
